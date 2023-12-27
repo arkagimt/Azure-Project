@@ -1,0 +1,9 @@
+[
+ {
+   "File_name_source": "AIRPORT.csv",
+	 "container_source": "airport",
+   "File_name_sink": "Airport.csv",
+   "directory_source":"@concat('airport/','Date_part=',formatdatetime(utcnow(),'yyyy-MM-dd))",
+   "container_sink": "raw"
+ }
+]

@@ -1,0 +1,13 @@
+[
+ {
+   "tablename_source": "dbo.UNIQUE_CARRIERS",
+   "filename_sink": "UNIQUE_CARRIERS"
+	 
+ },
+ {
+  "tablename_source": "dbo.Cancellation",
+   "filename_sink": "Cancellation" 
+ }
+ 
+
+]
